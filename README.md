@@ -6,8 +6,6 @@ We developed a terminal-based version of the classic game **Tic Tac Toe**. This 
 
 ## 📌 Project Objectives
 
----
-
 Implement the core logic of the **Tic Tac Toe** game in a terminal interface, following the game’s rules:
 - Two players: **X** and **O**
 - Player **X** starts the game
@@ -20,8 +18,6 @@ Implement the core logic of the **Tic Tac Toe** game in a terminal interface, fo
 
 ## 🧠 Technical Skills
 
----
-
 - Backend development in Java
 - Object-Oriented Programming (OOP)
 - Control flow (conditionals and loops)
@@ -33,14 +29,10 @@ Implement the core logic of the **Tic Tac Toe** game in a terminal interface, fo
 
 ## 💻 Technologies Used
 
----
-
 - Java 21
 - JUnit (for testing)
 
 ## 🛠 Tools
-
----
 
 - IntelliJ IDEA
 - Git & GitHub (with GitFlow)
@@ -49,8 +41,6 @@ Implement the core logic of the **Tic Tac Toe** game in a terminal interface, fo
 
 
 ## 🧪 Testing
-
----
 
 Basic unit tests are included to verify the game logic:
 
@@ -62,8 +52,6 @@ Tests can be executed using **JUnit**.
 
 
 ## 📋 Functional Requirements
-
----
 
 - [x] Display the empty board at the start
 - [x] Show the current board after each move
@@ -78,16 +66,12 @@ Tests can be executed using **JUnit**.
 
 ## ✅ Non-Functional Requirements
 
----
-
 - Terminal-based (console) user interface
 - Follows Java best practices and conventions
 - Clean, readable, and well-named code (classes, methods, variables)
 
 
 ## 🧩 Project Workflow
-
----
 
 This project is organized into **2 sprints**, developed collaboratively using **agile methodologies**.  
 The team manages tasks and user stories using **Trello** board.
@@ -96,8 +80,6 @@ The team manages tasks and user stories using **Trello** board.
 
 
 ## 🤝 Team members
-
----
 
 This project was developed as a **team exercise** to practice team collaboration, software engineering best practices and modern development tools and workflows by:
 
