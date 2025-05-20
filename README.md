@@ -76,7 +76,7 @@ Tests can be executed using **JUnit**.
 This project is organized into **2 sprints**, developed collaboratively using **agile methodologies**.  
 The team manages tasks and user stories using **Trello** board.
 
-![Tic Tac Toe Board Preview](assets/images/trello-board.png)
+![Tic Tac Toe Board Preview](assets/images/trello-board.PNG)
 
 
 ## 🤝 Team members
