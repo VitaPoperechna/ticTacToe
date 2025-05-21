@@ -33,6 +33,16 @@ public class Game {
             }
             board.getBoard()[row][column] = player.getPlayer()[player.getCurrentIndex()];
 
+            if (board.checkWin(player.getPlayer()[player.getCurrentIndex()])) {
+                board.showBoard();
+                System.out.println("\n¡Jugador " + player.getPlayer()[player.getCurrentIndex()] + " ha ganado!");
+                break;
+            }
+            if (board.isBoardFull()) {
+                board.showBoard();
+                System.out.println("\n¡Empate!");
+                break;
+            }
             player.changeTurn();
         }
     }
