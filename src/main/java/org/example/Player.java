@@ -1,15 +1,19 @@
 package org.example;
 
 public class Player {
-    private char firstPlayer = 'X';
-    private char secondPlayer = 'O';
+    private char[] player = {'X', 'O'};
+    private int currentIndex = 0;
 
-    public char getSecondPlayer() {
-        return secondPlayer;
+    public char[] getPlayer() {
+        return player;
+    }
+    public int getCurrentIndex() {
+        return currentIndex;
     }
 
-    public char getFirstPlayer() {
-        return firstPlayer;
+    public void changeTurn() {
+        currentIndex = (currentIndex + 1) % player.length;
+        System.out.println("\nTurno de: " + player[currentIndex]);
     }
 }
 
