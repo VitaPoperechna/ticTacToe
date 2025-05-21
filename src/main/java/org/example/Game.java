@@ -11,7 +11,7 @@ public class Game {
         System.out.println("¡Vamos a jugar a Tic Tac Toe!\n" + "El tablero se compone de tres columnas: 0-1-2 y tres filas: 0-1-2");
         board.showBoard();
         System.out.println("\nTurno de: " + player.getFirstPlayer());
-        System.out.print("Escribe una fila y una columna: ");
+        System.out.print( "Escribe primero una fila y seguido una columna con un espacio en medio (ej. 1 1): ");
 
         int row = scanner.nextInt();
         int column = scanner.nextInt();
