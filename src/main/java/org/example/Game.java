@@ -37,31 +37,3 @@ public class Game {
         }
     }
 }
-
-               /** board.showBoard();
-                player.changeTurn();
-                System.out.print( "Escribe primero una fila y seguido una columna con un espacio en medio (ej. 1 1): ");
-                row = scanner.nextInt();
-                column = scanner.nextInt();
-                board.getBoard()[row][column] = player.getPlayer()[player.getCurrentIndex()];
-                board.showBoard();
-                player.changeTurn();
-
-            } else {
-
-                row = scanner.nextInt();
-                column = scanner.nextInt();
-                board.getBoard()[row][column] = player.getPlayer()[player.getCurrentIndex()];
-                board.showBoard();
-                player.changeTurn();
-            }
-        } else {
-            System.out.println("La fila o columna no existe. Escribe una nueva fila y columna (ej. 1 1):");
-            row = scanner.nextInt();
-            column = scanner.nextInt();
-            board.getBoard()[row][column] = player.getPlayer()[player.getCurrentIndex()];
-            board.showBoard();
-            player.changeTurn();
-        }
-    }
-}*/
