@@ -20,13 +20,29 @@ public class Game {
             if (board.getBoard()[row][column] == '_') {
                 board.getBoard()[row][column] = player.getPlayer()[player.getCurrentIndex()];
                 board.showBoard();
+                player.changeTurn();
+                System.out.print( "Escribe primero una fila y seguido una columna con un espacio en medio (ej. 1 1): ");
+                row = scanner.nextInt();
+                column = scanner.nextInt();
+                board.getBoard()[row][column] = player.getPlayer()[player.getCurrentIndex()];
+                board.showBoard();
+                player.changeTurn();
+
             } else {
-                System.out.println("En el espacio que has elegido ya hay una ficha");
+                System.out.println("Posición ocupada. Escribe una nueva fila y columna libre (ej. 1 1):");
+                row = scanner.nextInt();
+                column = scanner.nextInt();
+                board.getBoard()[row][column] = player.getPlayer()[player.getCurrentIndex()];
+                board.showBoard();
+                player.changeTurn();
             }
         } else {
-            System.out.println("Algún número que has escrito no está en rango");
+            System.out.println("La fila o columna no existe. Escribe una nueva fila y columna (ej. 1 1):");
+            row = scanner.nextInt();
+            column = scanner.nextInt();
+            board.getBoard()[row][column] = player.getPlayer()[player.getCurrentIndex()];
+            board.showBoard();
+            player.changeTurn();
         }
-        row = scanner.nextInt();
-        column = scanner.nextInt();
     }
 }
