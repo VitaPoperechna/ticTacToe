@@ -101,11 +101,14 @@ The team manages tasks and user stories using **Trello** board.
 <br>
 
 **Flow Chart:**
-
 ![Flow Chart Preview](assets/images/flow-chart.png)
 
+## 🎬 Project Demo
 
 <br>
+
+![Game Demo](assets/images/demo-ticTaeToe.gif)
+
 
 ## 🤝 Team members
 
