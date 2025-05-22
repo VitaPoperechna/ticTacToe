@@ -35,7 +35,7 @@ public class Game {
 
             if (board.checkWin(player.getPlayer()[player.getCurrentIndex()])) {
                 board.showBoard();
-                System.out.println("\n¡Jugador " + player.getPlayer()[player.getCurrentIndex()] + " ha ganado!");
+                System.out.println("\n¡Jugadora " + player.getPlayer()[player.getCurrentIndex()] + " ha ganado!");
                 break;
             }
             if (board.isBoardFull()) {
