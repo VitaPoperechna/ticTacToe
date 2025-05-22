@@ -44,9 +44,9 @@ Implement the core logic of the **Tic Tac Toe** game in a terminal interface, fo
 
 Basic unit tests are included to verify the game logic:
 
-✅ Win condition validation
-✅ Draw detection
-✅ Occupied cell validation
+✅ Win condition validation<br>
+✅ Draw detection<br>
+✅ Occupied cell validation<br>
 
 Tests can be executed using **JUnit**.
 
@@ -64,14 +64,14 @@ Tests can be executed using **JUnit**.
 - [x] Follow **GitFlow** workflow
 
 
-## ✅ Non-Functional Requirements
+## 📓 Non-Functional Requirements
 
 - Terminal-based (console) user interface
 - Follows Java best practices and conventions
 - Clean, readable, and well-named code (classes, methods, variables)
 
 
-## 🧩 Project Workflow
+## 🔄 Project Workflow
 
 This project is organized into **2 sprints**, developed collaboratively using **agile methodologies**.  
 The team manages tasks and user stories using **Trello** board.
