@@ -1,20 +1,23 @@
 # 🎮 Tic Tac Toe
 
-
-We developed a terminal-based version of the classic game **Tic Tac Toe**. This is a backend project in Java 21 built collaboratively using agile methodologies.
+We developed a terminal-based version of the classic game Tic Tac Toe. This is a backend project in Java 21 built collaboratively using agile methodologies.
 
 <br>
 
 ## 📌 Project Objectives
 
-Implement the core logic of the **Tic Tac Toe** game in a terminal interface, following the game’s rules:
-- Two players: **X** and **O**
-- Player **X** starts the game
-- Played on a 3x3 grid
-- A player wins by aligning three matching symbols in a row, column, or diagonal
-- If all cells are filled without a winner, it’s a **draw**
-- The board is displayed after each turn
-- At the end, a message is shown indicating the **winner or a draw**
+Implement the core logic of the Tic Tac Toe game in a terminal interface, following the game’s rules:
+
+
+- Two players: X and O  
+- Player X starts the game  
+- Played on a 3x3 grid  
+- A player wins by aligning three matching symbols in a row, column, or diagonal  
+- If all cells are filled without a winner, it’s a draw  
+- The board is displayed after each turn  
+- At the end, a message is shown indicating the winner or a draw
+
+  
 
 <br>
 
@@ -27,7 +30,7 @@ Implement the core logic of the **Tic Tac Toe** game in a terminal interface, fo
 - Control flow (conditionals and loops)
 - Multidimensional array handling
 - User input via `Scanner`
-- Unit testing
+- Unit testing<br>
 
 
 <br>
@@ -36,7 +39,7 @@ Implement the core logic of the **Tic Tac Toe** game in a terminal interface, fo
 ## 💻 Technologies Used
 
 - Java 21
-- JUnit (for testing)
+- JUnit (for testing)<br>
 
 <br>
 
@@ -45,7 +48,7 @@ Implement the core logic of the **Tic Tac Toe** game in a terminal interface, fo
 - IntelliJ IDEA
 - Git & GitHub (with GitFlow)
 - Trello (for agile project management)
-- Figma (for flow chart design)
+- Figma (for flow chart design)<br>
 
 <br>
 
@@ -58,7 +61,7 @@ Basic unit tests are included to verify the game logic:
 ✅ Draw detection<br>
 ✅ Occupied cell validation<br>
 
-Tests can be executed using **JUnit**.
+Tests can be executed using **JUnit**.<br>
 
 <br>
 
@@ -73,7 +76,7 @@ Tests can be executed using **JUnit**.
 - [x] Detect draw when all cells are filled without a winner
 - [x] Show a message declaring the winner or a draw
 - [x] Include unit tests
-- [x] Follow **GitFlow** workflow
+- [x] Follow **GitFlow** workflow<br>
 
 <br>
 
@@ -82,7 +85,7 @@ Tests can be executed using **JUnit**.
 
 - Terminal-based (console) user interface
 - Follows Java best practices and conventions
-- Clean, readable, and well-named code (classes, methods, variables)
+- Clean, readable, and well-named code (classes, methods, variables)<br>
 
 <br>
 
@@ -93,7 +96,7 @@ This project is organized into **2 sprints**, developed collaboratively using **
 The team manages tasks and user stories using **Trello** board.
 
 ![Tic Tac Toe Board Preview](assets/images/trello-board.PNG)
-
+<br>
 
 <br>
 
