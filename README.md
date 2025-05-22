@@ -81,11 +81,11 @@ This project is organized into **2 sprints**, developed collaboratively using **
 The team manages tasks and user stories using **Trello** board.
 
 ![Tic Tac Toe Board Preview](assets/images/trello-board.PNG)
-<br>
 
 <br>
 
 **Flow Chart:**
+
 ![Flow Chart Preview](assets/images/flow-chart.png)
 
 ## 🎬 Project Demo
