@@ -13,7 +13,6 @@ public class Player {
 
     public void changeTurn() {
         currentIndex = (currentIndex + 1) % player.length;
-        System.out.println("\nTurno de: " + player[currentIndex]);
     }
 }
 
