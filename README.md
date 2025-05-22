@@ -30,7 +30,6 @@ Implement the core logic of the Tic Tac Toe game in a terminal interface, follow
 - Control flow (conditionals and loops)
 - Multidimensional array handling
 - User input via `Scanner`
-- Unit testing<br>
 
 
 <br>
@@ -39,8 +38,6 @@ Implement the core logic of the Tic Tac Toe game in a terminal interface, follow
 ## 💻 Technologies Used
 
 - Java 21
-- JUnit (for testing)<br>
-
 <br>
 
 ## 🛠 Tools
@@ -49,19 +46,8 @@ Implement the core logic of the Tic Tac Toe game in a terminal interface, follow
 - Git & GitHub (with GitFlow)
 - Trello (for agile project management)
 - Figma (for flow chart design)<br>
+- Google Meet, Zoom, Whatsapp (communication channels)
 
-<br>
-
-
-## 🧪 Testing
-
-Basic unit tests are included to verify the game logic:
-
-✅ Win condition validation<br>
-✅ Draw detection<br>
-✅ Occupied cell validation<br>
-
-Tests can be executed using **JUnit**.<br>
 
 <br>
 
@@ -75,7 +61,6 @@ Tests can be executed using **JUnit**.<br>
 - [x] Check for a winner after each move
 - [x] Detect draw when all cells are filled without a winner
 - [x] Show a message declaring the winner or a draw
-- [x] Include unit tests
 - [x] Follow **GitFlow** workflow<br>
 
 <br>
